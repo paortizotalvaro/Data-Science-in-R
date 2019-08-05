@@ -1,0 +1,94 @@
+---
+title: "Capstone Idea 2:  \n Employee or Customer Churn Prediction"
+author: "P. A. Ortiz Otalvaro"
+date: "June 2019"
+output:
+  pdf_document: default
+  word_document: default
+---
+
+# I. Business Problem: Employee churn
+
+Predicting employee churn is more complex than predicting customer churn. Employee churn can be expensive for companies due to the costs related to the search of a replacement, extra trainings, the loss of productivity while a new employee adapts to the new role, and even possibly customer dissatisfaction. 
+
+
+# II. Business questions
+
+1. For a given scenario, which are the main drivers of employee churn? <br>
+2. When are employees most likely to leave? <br>
+3. Which is the probabilty of an employee to leave a company?
+4. How can new hiring be planned in advance to increase employee retention and productivity?
+
+
+# III. Data: Links and descriptions
+
+### Option 1: Kaggke, HR Analytics employee attrition 
+
+The data contains
+
+* employee id <br>
+* employee record date ( year of data) <br>
+*  birth date <br>
+* hire date <br>
+* termination date <br>
+* age <br>
+* length of service <br>
+* city department <br>
+* job title <br>
+* store number <br>
+* gender <br>
+* termination reason <br>
+* termination type <br>
+* status year <br>
+* status <br>
+* business unit
+
+<https://www.kaggle.com/HRAnalyticRepository/employee-attrition-data>
+
+
+<br>
+
+
+### Option 2: IBM fictional employee data 
+
+Fields:
+
+* Age
+* Attrition
+* BusinessTravel
+* DailyRate
+* Department
+* DistanceFromHome
+* Education
+* EducationField
+* EmployeeCount
+* EmployeeNumber
+* EnvironmentSatisfaction
+* Gender
+* HourlyRate
+* JobInvolvement
+* JobLevel
+* JobRole
+* JobSatisfaction
+* MaritalStatus
+* MonthlyIncome
+* MonthlyRate
+* NumCompaniesWorked
+* Over18
+* OverTime
+* PercentSalaryHike
+* PerformanceRating
+* RelationshipSatisfaction
+* StandardHours
+* StockOptionLevel
+* TotalWorkingYears
+* TrainingTimesLastYear
+* WorkLifeBalance
+* YearsAtCompany
+* YearsInCurrentRole
+* YearsSinceLastPromotion
+* YearsWithCurrManager
+  
+
+
+<https://www.ibm.com/communities/analytics/watson-analytics-blog/hr-employee-attrition/>

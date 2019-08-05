@@ -1,0 +1,51 @@
+---
+title: "Capstone Idea 2:  \n Employee or Customer Churn Prediction"
+author: "P. A. Ortiz Otalvaro"
+date: "June 2019"
+output:
+  pdf_document: default
+  word_document: default
+---
+
+# I. Business Problem: Customer churn
+
+Customer churn occurs when customers or subscribers stop doing business with a company or service, also known as customer attrition. Customer retention is very important for companies for the stability of their business. Acquiring new costumers is much more expensive than retaining existing ones. Customer churn is a notorious issue that generates revenue loss.
+
+# II. Business questions
+
+1. For a given scenario, which are the main drivers of customer churn? <br>
+2. When are customers most likely to leave? <br>
+3. Which is the probabilty of a customer to leave a company?
+4. What policies could be implemented to increase customer retention?
+
+
+# III. Data: Links and descriptions
+
+### Option 1: artificial data modified from UCI repository 
+
+Churn data (artificial based on claims similar to real world) from the UCI data repository>
+
+A data frame with 5000 observations on the following 18 variables (description on the website)
+
+This dataset is modified from the one stored at the UCI data repository (namely, the area code and phone number have been deleted). This is artificial data similar to what is found in actual customer profiles. Charges are in dollars.
+
+Source
+Though originally on the UCI data repository, actual data was obtained via https://www.sgi.com/tech/mlc/db/
+
+Mhttps://data.world/earino/churn>
+
+<br>
+<br>
+
+### Option 2: Telco customer churn
+The raw data contains 7043 rows (customers) and 21 columns (features).
+
+The data set includes information about:
+
+* Customers who left within the last month – the column is called Churn
+* Services that each customer has signed up for – phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies
+* Customer account information – how long they’ve been a customer, contract, payment method, paperless billing, monthly charges, and total charges
+* Demographic info about customers – gender, age range, and if they have partners and dependents
+
+<https://www.kaggle.com/blastchar/telco-customer-churn>
+
